@@ -5,8 +5,8 @@ from django.shortcuts import render
 
 
 def index(request, *args, **kwargs):
-    return render(request, 'catalog/index.html')
+    return render(request, 'catalog/app_name/index.html')
 
 
 def contacts(request, *args, **kwargs):
-    return render(request, 'catalog/contacts.html')
+    return render(request, 'catalog/app_name/contacts.html')
